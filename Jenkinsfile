@@ -82,7 +82,7 @@ pipeline {
                     string(
                         credentialsId: 'postgres-db-password',
                         variable: 'DB_PASSWORD'
-i                    )
+                    )
                 ]) {
                     sh '''
                         PGPASSWORD="$DB_PASSWORD" psql \
