@@ -1,0 +1,6 @@
+---
+postgresql_version: "16"
+postgresql_service: postgresql
+postgresql_listen_addresses: "*"
+postgresql_port: 5432
+jenkins_private_ip: "172.31.14.82"
